@@ -1,3 +1,5 @@
+package Modele;
+
 public class Attraction {
     private int idAttraction; // mis à jour après insertion
     private String nom;
@@ -22,6 +24,6 @@ public class Attraction {
 
     @Override
     public String toString() {
-        return "Attraction #" + idAttraction + " - " + nom + " [Prix: " + prixUnitaire + "€, Capacité: " + capacite + "]";
+        return "Modele.Attraction #" + idAttraction + " - " + nom + " [Prix: " + prixUnitaire + "€, Capacité: " + capacite + "]";
     }
 }
