@@ -1,5 +1,6 @@
 package Modele;
 
+
 public class Attraction {
     private int idAttraction; // mis à jour après insertion
     private String nom;
